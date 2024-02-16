@@ -17,5 +17,312 @@
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
+  font-weight: 400;
   line-height: 21px;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0 40px;
+  width: 1200px;
+}
+
+.page-header {
+  width: 1200px;
+  height: 64px;
+}
+
+.navigation {
+  display: flex;
+  gap: 30px;
+}
+
+.navigation-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-item {
+  align-self: center;
+  padding: 20px 16px;
+}
+
+.navigation-user {
+  margin-right: 70px;
+}
+
+.navigation .button {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #756157;
+  color: #ffffff;
+  display: block;
+  width: 160px;
+  height: 36px;
+  border-radius: 4px;
+  padding: 8px 34px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero {
+  min-height: 485px;
+  background-image: url("../images/welcome-background.jpg");
+  background-size: 100% auto;
+  background-color: #00B3D3;
+  background-repeat: no-repeat;
+}
+
+.hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.why-sedona-reasons {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.advantages-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.real-city, .devil-bridge {
+  background-color: #82B3D3;
+  color: #ffffff;
+  width: 400px;
+  height: 385px;
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 102px 85px;
+}
+
+.real-city-inner, .devil-bridge-inner {
+  width: 230px;
+}
+
+.sedona-saloon {
+  display: block;
+}
+
+.advantage-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 62px;
+  width: 175px;
+
+}
+
+.first-advantage, .fifth-advantage {
+  display: flex;
+}
+
+.advantages-inner {
+  width: 230px;
+}
+
+.second-advantage, .fourth-advantage {
+  width: 400px;
+  height: 385px;
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 102px 85px;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.third-advantage {
+  width: 400px;
+  height: 385px;
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 102px 85px;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.fifth-advantage {
+  flex-direction: row-reverse;
+}
+
+.visit-sedona {
+  text-align: center;
+}
+
+.visit-sedona-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.visit-sedona-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.recomendations-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.recomendations-item {
+  width: 400px;
+  min-height: 385px;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.recomendation-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 102px;
+  text-align: center;
+}
+
+.recomendation-text {
+  margin: 0;
+  text-align: center;
+}
+
+.recomendation-wrap {
+  width: 230px;
+  min-height: 223px;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin: 81px 85px;
+}
+
+.house {
+  background-image: url("../images/house.svg");
+}
+
+.food {
+  background-image: url("../images/food.svg");
+}
+
+.food-item {
+  background-color: inherit;
+}
+
+.gifts {
+  background-image: url("../images/gift.svg");
+}
+
+.hotel-search {
+  text-align: center;
+}
+
+.hotel-search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hotel-search-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.hotel-search-button {
+  background-color: #756157;
+  color: #ffffff;
+  width: 376px;
+  height: 52px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  padding: 8px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.subscribe {
+  min-height: 415px;
+  background-image: url("../images/subscribe-background.jpg");
+  background-size: 100% auto;
+  background-color: #00B3D3;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.subscribe-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-input {
+  width: 452px;
+  height: 52px;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
+  padding: 12px, 20px, 12px, 20px;
+}
+
+.subscribe-button {
+    width: 232px;
+    height: 52px;
+    background-color: #82B3D3;
+    color: #ffffff;
+    border-radius: 0 4px 4px 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
 }
