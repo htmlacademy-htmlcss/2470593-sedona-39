@@ -504,6 +504,7 @@ body {
 
 .price-input-from, .price-input-till {
   font-weight: 700;
+  font-size: inherit;
   line-height: 24px;
   color:#000000;
   border: none;
