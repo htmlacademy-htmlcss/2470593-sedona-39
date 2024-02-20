@@ -28,6 +28,7 @@ body {
   margin: 0 auto;
   width: 1200px;
   background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .button {
@@ -98,6 +99,19 @@ body {
   background-image: url("../images/favourites-icon.svg");
   background-repeat: no-repeat;
   background-size: 20px auto;
+}
+
+.favourites-number {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  vertical-align: middle;
+  color:#ffffff;
+  background-color: #7DB54F;
+  border-radius: 50%;
+  display: table-cell;
+  width: 20px;
+  height: 20px;
 }
 
 .hero {
@@ -669,6 +683,25 @@ body {
   justify-content: space-between;
 }
 
+.stars-four {
+  background-image: url("../images/catalog/star.svg"), url("../images/catalog/star.svg"), url("../images/catalog/star.svg"), url("../images/catalog/star.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left 50%, 24px 50%, 48px 50%, 72px 50%;
+  padding-right: 25px;
+}
+
+.stars-three {
+  background-image: url("../images/catalog/star.svg"), url("../images/catalog/star.svg"), url("../images/catalog/star.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left 50%, 24px 50%, 48px 50%;
+}
+
+.stars-two {
+  background-image: url("../images/catalog/star.svg"), url("../images/catalog/star.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 50%, 24px 50%;
+}
+
 .hotel-rate {
   font-size: 16px;
   line-height: 20px;
@@ -754,3 +787,14 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+} */
