@@ -138,11 +138,14 @@ body {
   margin-left: auto;
 }
 
+.logo-link {
+position: absolute;
+top: 0;
+left: 0;
+}
+
 .sedona-logo {
   display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .current {
