@@ -688,8 +688,16 @@ left: 0;
   width: 12px;
   height: 12px;
   padding-bottom: 2px;
-  align-self: center;
   margin-right: 28px;
+  display: inline-block;
+}
+
+.home-link::after {
+  content: "";
+  position: absolute;
+  background-image: url("../images/breadcrumbs-arrow.svg");
+  background-position: center;
+  left: 10px;
 }
 
 .hotel-filter-group {
