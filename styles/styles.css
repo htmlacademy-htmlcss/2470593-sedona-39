@@ -776,11 +776,6 @@ left: 0;
   margin-right: 70px;
 }
 
-.type-filter-group {
-  margin-right: 70px;
-  ;
-}
-
 .infrastructure-title {
   font-weight: 700;
   font-size: 20px;
@@ -836,6 +831,10 @@ left: 0;
 .max-price-handle {
   top: -8px;
   right: 61px;
+}
+
+.range-wrapper-inputs {
+  display: flex;
 }
 
 .price-range-control-from,
