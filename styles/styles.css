@@ -269,11 +269,12 @@ left: 0;
   background-size: cover;
   background-color: #deebf4;
   background-repeat: no-repeat;
-  padding: 51px 371px 82px;
+  padding: 51px 70px 82px;
 }
 
 .hero-image {
   display: block;
+  margin: 0 auto;
 
 }
 
