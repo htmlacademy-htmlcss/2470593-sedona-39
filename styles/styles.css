@@ -835,6 +835,7 @@ left: 0;
 
 .range-wrapper-inputs {
   display: flex;
+  gap: 2px;
 }
 
 .price-range-control-from,
