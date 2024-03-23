@@ -253,7 +253,7 @@ body {
 }
 
 .advantages-title-section {
-  padding: 69px 274px;
+  padding: 69px 270px;
 }
 
 .advantages {
@@ -269,7 +269,6 @@ body {
   margin: 0 auto;
   margin-bottom: 25px;
   color: #000000;
-  width: 620px;
 }
 
 .why-sedona-reasons {
@@ -966,6 +965,10 @@ body {
   margin: 0;
 }
 
+.guests-number-field {
+  -moz-appearance: textfield;
+}
+
 .guests-number-field:focus {
   background-color: #e6e6e6;
   outline: none;
@@ -1222,6 +1225,10 @@ body {
 .range-input::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+}
+
+.range-input {
+  -moz-appearance: textfield;
 }
 
 .price-range-control {
