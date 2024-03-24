@@ -40,6 +40,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   min-height: 100%;
+  min-width: 1280px;
 }
 
 .body-wrapper {
@@ -177,6 +178,7 @@ body {
 
 .current {
   text-decoration: underline;
+  -webkit-text-decoration-color: #756257;
   text-decoration-color: #756257;
   text-underline-offset: 24px;
 }
@@ -991,6 +993,7 @@ body {
 
 .guests-number-field::-webkit-inner-spin-button,
 .guests-number-field::-webkit-outer-spin-button {
+  -webkit-appearance: none;
   appearance: none;
   margin: 0;
 }
@@ -1270,6 +1273,7 @@ body {
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   appearance: none;
   margin: 0;
 }
@@ -1418,6 +1422,7 @@ body {
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
+  -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
 }
