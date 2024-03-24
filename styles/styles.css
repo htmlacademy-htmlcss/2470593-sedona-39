@@ -87,6 +87,7 @@ body {
 .button:hover,
 .button:focus {
   background-color: #615048;
+  outline: none;
 }
 
 .page-header {
@@ -116,6 +117,7 @@ body {
 .main-navigation .navigation-link[href]:hover,
 .main-navigation .navigation-link[href]:focus {
   color: #68a2ca;
+  outline: none;
 }
 
 .main-navigation .navigation-link[href]:active {
@@ -194,6 +196,7 @@ body {
 
 .search:focus {
   background-color: #deebf4;
+  outline: none;
 }
 
 .search:active {
@@ -217,6 +220,7 @@ body {
 
 .favourites:focus {
   background-color: #deebf4;
+  outline: none;
 }
 
 .favourites:active {
@@ -600,6 +604,10 @@ body {
   fill: #68a2ca;
 }
 
+.social-link:focus {
+  outline: none;
+}
+
 .social-link:active path {
   fill: rgba(104, 162, 202, 0.3);
 }
@@ -625,10 +633,15 @@ body {
 .phone-number-link:hover,
 .phone-number-link:focus {
   color: #756157;
+  outline: none;
 }
 
 .phone-number-link:active {
   color: rgba(117, 97, 87, 0.3);
+}
+
+.developer-link:focus {
+  outline: none;
 }
 
 .developer-link:hover path,
@@ -773,6 +786,15 @@ body {
 
 }
 
+.number-field-wrapper {
+  display: flex;
+}
+
+.number-fields {
+  display: flex;
+  position: relative;
+}
+
 .date-field:focus {
   background-color: #e6e6e6;
   outline: 3px solid #83b3d3;
@@ -793,6 +815,10 @@ body {
 .guests-number-label {
   display: flex;
   align-items: center;
+}
+
+.kids-group {
+  margin-left: 88px;
 }
 
 .adults-label {
@@ -818,14 +844,14 @@ body {
 
 .tooltip {
   position: absolute;
-  margin-top: 5px;
-  margin-left: 60px;
+  top: 10px;
+  right: 111px;
 }
 
 .tooltip-text {
   width: 256px;
   background-color: #333333;
-  padding: 15px 18px 18px 22px;
+  padding: 18px 18px 22px 22px;
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
@@ -846,12 +872,16 @@ body {
   border: 19px solid transparent;
   border-bottom: 19px solid #333333;
   top: -30px;
-  left: 112px;
+  left: 110px;
 }
 
 .tooltip-toggle:hover + .tooltip-text,
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
+}
+
+.tooltip-toggle:focus {
+  outline: none;
 }
 
 .guests-number-field {
@@ -1022,7 +1052,7 @@ body {
   background-image: url(../images/filter-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #f2f2f2;
+  background-color: rgba(131, 179, 211, 0.7);
   color: #ffffff;
   min-height: 307px;
   padding: 70px;
@@ -1055,6 +1085,18 @@ body {
   font-size: 16px;
 }
 
+.breadcrumbs-link[href]:focus {
+  outline: none;
+}
+
+.breadcrumbs-link[href]:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link[href]:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .home-link {
   background-image: url("../images/home-icon.svg");
   background-repeat: no-repeat;
@@ -1062,6 +1104,7 @@ body {
   height: 15px;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 4px;
 }
 
 .breadcrumbs-item::after {
@@ -1077,6 +1120,10 @@ body {
 
 .breadcrumbs-item:first-child::after {
   content: none;
+}
+
+.home-link[href]:focus {
+  outline: 1px solid #ffffff;
 }
 
 .hotel-filter-group {
@@ -1304,6 +1351,7 @@ body {
 
 .hotel-filter-submit:focus {
   background-color: #68a2ca;
+  outline: none;
 }
 
 .hotel-filter-submit:active {
@@ -1357,7 +1405,7 @@ body {
 
 .after-filter-sorting {
   border: none;
-  outline: 2px solid #e5e5e5;
+  border: 2px solid #e5e5e5;
   border-radius: 4px;
   width: 292px;
   padding: 14px 35px 14px 20px;
@@ -1376,12 +1424,13 @@ body {
 
 .after-filter-sorting:hover,
 .after-filter-sorting:focus {
-  outline: 2px solid #68a2ca;
+  border: 2px solid #68a2ca;
+  outline: none;
 }
 
 .after-filter-sorting:disabled {
   color: rgba(0, 0, 0, 0.3);
-  outline: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .card-view-list {
@@ -1399,8 +1448,7 @@ body {
   background-position: 50% 50%;
   width: 48px;
   height: 48px;
-  padding: 17px 16px;
-  outline: 2px solid #e5e5e5;
+  border: 2px solid #e5e5e5;
   border-radius: 4px;
   display: inline-block;
 }
@@ -1410,7 +1458,7 @@ body {
 }
 
 .active {
-  outline: 2px solid #000000;
+  border: 2px solid #000000;
 }
 
 .card-view-full-page {
@@ -1422,15 +1470,16 @@ body {
 }
 
 .card-view-link:focus {
-  outline: 2px solid #68a2ca;
+  border: 2px solid #68a2ca;
+  outline: none;
 }
 
 .card-view-link:hover {
-  outline: 2px solid #000000;
+  border: 2px solid #000000;
 }
 
 .card-view-link:active {
-  outline: 2px solid #000000;
+  border: 2px solid #000000;
 }
 
 .hotels-cards {
@@ -1556,7 +1605,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  padding-top: 40px;
+  padding-top: 37px;
 }
 
 .pagination-link {
@@ -1580,6 +1629,7 @@ body {
 .pagination-link:focus:not(.current-page-link) {
   background-color: #68a2ca;
   border: 1px solid #82b3d3;
+  outline: none;
 }
 
 .pagination-link:active:not(.current-page-link) {
