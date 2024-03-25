@@ -111,7 +111,7 @@ body {
 }
 
 .main-navigation {
-  max-width: 600px;
+  max-width: 590px;
   margin-left: 169px;
 }
 
@@ -346,6 +346,8 @@ body {
 
 .sedona-saloon {
   display: block;
+  height: 100%;
+  object-fit: cover;
 }
 
 .real-city-advantage,
@@ -383,6 +385,8 @@ body {
 
 .sedona-canyon {
   display: block;
+  height: 100%;
+  object-fit: cover;
 }
 
 .visit-sedona {
@@ -411,6 +415,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .recomendations-item {
@@ -587,6 +592,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  max-width: 160px;
 }
 
 .social-link-vkontakte {
@@ -1093,11 +1099,11 @@ body {
 }
 
 .breadcrumbs-link[href]:hover {
-  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
 }
 
 .breadcrumbs-link[href]:active {
-  color: rgba(255, 255, 255, 0.3);
+  opacity: 0.3;
 }
 
 .home-link {
@@ -1145,6 +1151,8 @@ body {
   font-size: 20px;
   line-height: 24px;
   padding-bottom: 32px;
+  max-width: 151px;
+  overflow: hidden;
 }
 
 .infrastructure-filter-list {
@@ -1162,6 +1170,8 @@ body {
   display: block;
   padding-left: 36px;
   cursor: pointer;
+  max-width: 151px;
+  overflow: hidden;
 }
 
 .control-mark {
@@ -1330,7 +1340,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  justify-content: flex-end;
+  margin-top: 56px;
 }
 
 .hotel-filter-button {
@@ -1394,21 +1404,22 @@ body {
   color: #000000;
   margin: 0;
   margin-right: 200px;
+  max-width: 360px;
 }
 
 .hotel-cards-sorting {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 70px 40px;
+  padding: 48px 70px 40px;
   align-items: center;
 }
 
 .card-view-list {
   margin-left: auto;
+  max-width: 160px;
 }
 
 .after-filter-sorting {
-  border: none;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   width: 292px;
@@ -1421,7 +1432,7 @@ body {
   background-color: #ffffff;
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
-  background-position: right 20px center;
+  background-position: right 17px center;
   -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
@@ -1497,15 +1508,15 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(3, 340px);
-  padding-bottom: 40px;
-  gap: 20px;
+  padding-bottom: 44px;
+  gap: 25px 20px;
   border-bottom: 1px solid #e6e6e6;
 }
 
 .hotel-card {
   box-sizing: border-box;
   width: 340px;
-  padding: 20px;
+  padding: 17px 20px;
   box-shadow: 0 0 0 1px #e6e6e6;
   border-radius: 4px;
   display: grid;
@@ -1521,6 +1532,7 @@ body {
 
 .hotel-image {
   display: block;
+  padding-bottom: 1px;
 }
 
 .hotel-price {
