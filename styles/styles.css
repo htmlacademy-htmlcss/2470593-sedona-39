@@ -1308,6 +1308,7 @@ body {
 }
 
 .range-input {
+  font-family: inherit;
   font-weight: 700;
   font-size: inherit;
   line-height: 24px;
